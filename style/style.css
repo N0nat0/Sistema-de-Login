@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+sans|Source+Code+Pro');
+
+body {
+    padding: 3%;
+    font-family: "Source Code Pro", serif;
+    overflow-x: hidden;
+    color: #FFFFFF;
+    background-color: #0D47A1;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, article, pre {
+    margin: 20px 0;
+    padding-left: 10px;
+    border-left: 5px solid var(--fsline);
+}
+
+a {
+    color: #d94452;
+}
+
+a:hover {
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+p {
+    font-size: 0.875em;
+    margin: 10px 0;
+}
+
+.logoUnisanta {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 160px;
+    max-width: 50%;
+
+}
+
+form {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding: 2% 2% 7% 2%;
+    background-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-left: 5px solid var(--fsline);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    font-family: "Open Sans", serif;
+    border: 1px solid var(--fsline);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 2% 0;
+}
+
+form button {
+    border: none;
+    text-align: center;
+    display: block;
+    float: left;
+    position: relative;
+    width: 45%;
+    padding: 2%;
+    font-size: 1em;
+    font-weight: bold;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    margin: 2%;
+}
+
+form button:hover {
+    color: #FFFFFF;
+    background-color: var(--green);
+}
+
+footer {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.05);
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-left: -4%;
+}
+
+.miniCV {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    font-family: "Source Code Pro", serif;
+    padding: 2% 2% 1% 2%;
+    background-color: rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-left: 5px solid var(--fsline);
+
+}
+
+#headshot img {
+    width: 20%;
+    height: auto;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+#name h1,h2{
+    margin-bottom: -3%;
+}
+
+#contactDetails ul {
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+#contactDetails ul li {
+    margin-bottom: 3px;
+    color: #FFFFFF;;
+}
+
+
+#contactDetails ul li a:hover {
+    color: #cf8a05;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+
+    -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+
+    animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+.delayOne {
+    -webkit-animation-delay: 0, .5s;
+    -moz-animation-delay: 0, .5s;
+    animation-delay: 0, .5s;
+}
+.delayTwo {
+    -webkit-animation-delay: 0, 1s;
+    -moz-animation-delay: 0, 1s;
+    animation-delay: 0, 1s;
+}
+
+.delayThree {
+    -webkit-animation-delay: 0, 1.5s;
+    -moz-animation-delay: 0, 1.5s;
+    animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+    -webkit-animation-delay: 0, 2s;
+    -moz-animation-delay: 0, 2s;
+    animation-delay: 0, 2s;
+}
+
+.delayFive {
+    -webkit-animation-delay: 0, 2.5s;
+    -moz-animation-delay: 0, 2.5s;
+    animation-delay: 0, 2.5s;
+}
