@@ -10,5 +10,9 @@ nameTitle("Login");
       <button type="submit" value="entrar" name="entrar"><b>Login</b></button>
         <button type="reset" value="btn-Limpar"><b>Limpar</b></button>
     </form>
+
 <?php
+var_dump(
+        ["Cookie tentativas " => $_COOKIE['tentativasCookie']]);
+
 require __DIR__ . "/footer.php";

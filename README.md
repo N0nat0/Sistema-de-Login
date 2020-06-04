@@ -21,6 +21,9 @@ $con = mysqli_connect($server, $user, $pass);
 
 
 ## Historico
+* v1.2
+    * Inclusão de criptografia no `autenticarCliente.php`
+    * Inclusão do arquivo  `publica.php`  
 * v1.1 
     * Alteração do README.md
         * Inclusão de explicação do PHP - BD
